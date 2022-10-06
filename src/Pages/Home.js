@@ -5,7 +5,6 @@ import Main from '../Main'
 const Home = ()=> {
   return (
     <div className='App'>
-        <Navbar/>
         <Main/>
     </div>
   )
