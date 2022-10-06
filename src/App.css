@@ -1,0 +1,56 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchbar{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 100px;
+  border: 1px solid;
+  box-shadow: 1px 1px 10px 6px;
+}
+
+.userInput{
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.submit_app{
+  width: 130px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.recipe-conatiner{
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 340px 340px 340px;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 1000px) {
+  .recipe-conatiner{
+    grid-template-columns: 340px 340px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .recipe-conatiner{
+    grid-template-columns: 340px;
+  }
+}
