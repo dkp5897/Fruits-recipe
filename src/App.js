@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Error from "./Pages/Error";
 import Navbar from "./Components/Navbar";
+import Seccessful from "./Pages/Seccessful";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="submitted" element={<Seccessful/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
     </>

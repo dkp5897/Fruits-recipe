@@ -12,7 +12,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink to="/">
           <p>
-            <span>F</span>ruits<span>J</span>uice
+            <span>F</span>ood<span>R</span>ecipe
           </p>
         </NavLink>
       </div>
