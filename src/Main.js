@@ -29,7 +29,7 @@ function Main() {
             <input
               type="text"
               className="userInput"
-              placeholder="write your favourite fruits"
+              placeholder="write any food or fruits"
               value={getText}
               onChange={(e) => setText(e.target.value)}
             />
