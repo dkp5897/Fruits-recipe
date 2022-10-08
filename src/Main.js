@@ -24,7 +24,7 @@ function Main() {
     };
   
     return (
-      <>
+      <div className="App">
           <div className="searchbar">
             <input
               type="text"
@@ -43,7 +43,7 @@ function Main() {
               return <RecipeCards item={recipe} index={index} />;
             })}
           </div>
-      </>
+      </div>
     );
 }
 

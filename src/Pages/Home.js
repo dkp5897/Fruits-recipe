@@ -1,10 +1,10 @@
 import React from 'react'
-import Main from '../Main'
+import Front from './Front'
 
 const Home = ()=> {
   return (
     <div className='App'>
-        <Main/>
+        <Front/>
     </div>
   )
 }

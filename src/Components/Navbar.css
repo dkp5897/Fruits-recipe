@@ -36,6 +36,13 @@
     font-weight: 900;
 }
 
+.rightNav{
+    display: flex;
+    font-size: 25px;
+    font-family: 'Alkalami', serif;
+    margin-left: 20px;
+}
+
 .rightNav ul{
     display:  flex;
 }
@@ -48,3 +55,14 @@
 .rightNav li a{
     text-decoration: none;
 }
+
+@media screen and (max-width: 1000px) {
+    .navbar{
+        width: 120vw;
+    }
+  }
+@media screen and (max-width: 800px) {
+    .navbar{
+        width: 150vw;
+    }
+  }
