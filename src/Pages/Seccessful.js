@@ -18,7 +18,7 @@ function Seccessful() {
     const navigate = useNavigate()
   return (
     <div style={box}>
-      <h1>Seccessfully Submitted!</h1>
+      <h1>Successfully Submitted!</h1>
       <button style={btn} onClick={()=>navigate('/')}>Back</button>
     </div>
   )
